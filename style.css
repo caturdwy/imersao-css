@@ -1,0 +1,34 @@
+body {
+    background-image: url(https://i.imgur.com/DVw2I0a.jpg);
+    background-size: auto 110vh; 
+    font-family: Garamond;
+    height: 110vh
+  }
+  
+  .menu {
+    background-color: whitesmoke;
+  }
+  
+  a {
+    color: teal;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  .menu ul {
+    display: flex; 
+    justify-content: space-around;
+  }
+  
+  .menu li {
+    list-style: none
+  }
+  
+  .site-subtitle,
+  .site-title {
+    color: whitesmoke;
+    text-align: center;
+  }
